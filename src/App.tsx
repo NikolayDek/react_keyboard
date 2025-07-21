@@ -1,7 +1,7 @@
 import React from 'react';
 
 type State = {
-  pressedKey: '';
+  pressedKey: string;
 };
 
 export class App extends React.Component {
